@@ -14,3 +14,27 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: beige;
+}
+
+body {
+    background-color: #fff;
+}
+
+.wrap-all {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    border: 1px solid blue;
+}
