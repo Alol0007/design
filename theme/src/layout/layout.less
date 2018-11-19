@@ -1,0 +1,129 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ .rm-desktop ul {
+     display:  block;
+ }
+
+ /* Hide responsive/mobile menu, leave this to kmom02 */
+ .rm-navbar-max {
+     display: block;
+ }
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+// .wrap-all {
+//     max-width: 90%;
+//     margin: 0 auto;
+//     background-color: lightblue;
+// }
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    border: 1px solid white;
+    height: 200px;
+}
+
+.outer-wrap-footer {
+    background-color: #333;
+}
+
+.inner-wrap-footer {
+    background-color: #333;
+    color: white;
+}
+
+// .region-flash img {
+//     width: 800px;
+//     height: 150px;
+// }
+
+.outer-wrap-header {
+    background-color: 333;
+    //overflow: auto;
+    .clearfix();
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 31%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 38%;
+    float: left;
+    text-align: center;
+}
+
+.inner-wrap-main {
+    //.clearfix();
+    overflow: auto;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.region-main {
+    width: 70%;
+    float: left;
+    margin-left: 10%;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: lightblue;
+}
