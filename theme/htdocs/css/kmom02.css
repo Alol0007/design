@@ -4615,7 +4615,6 @@ img {
 .inner-wrap {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #ccc;
 }
 .site-logo {
   display: none;
@@ -4626,15 +4625,8 @@ img {
   border: 1px solid white;
   height: 200px;
 }
-.outer-wrap-footer {
-  background-color: #333;
-}
 .inner-wrap-footer {
-  background-color: #333;
   color: white;
-}
-.outer-wrap-header {
-  background-color: 333;
 }
 .outer-wrap-header::after {
   content: "";
@@ -4683,7 +4675,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
   color: white;
 }
 li a,
@@ -4692,10 +4683,6 @@ li a,
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-}
-li a:hover,
-.dropdown:hover .dropbtn {
-  background-color: lightblue;
 }
 /**
  * Layout for responsive style through media queries.
