@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Af Solstråle"
 views:
     mumin:
         region: sidebar-right
